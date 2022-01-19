@@ -18,9 +18,9 @@ class AppColors {
   ];
 
   static const shimmerGradient = LinearGradient(colors: [
-    Color(0xFFaaaaaa),
+    Color(0xFFEBEBF4),
     Color(0xFFF4F4F4),
-    Color(0xFFaaaaaa),
+    Color(0xFFEBEBF4),
   ]);
   static const shimmerGradientDark = LinearGradient(colors: [
     Color(0xFF363738),

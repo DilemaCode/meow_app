@@ -1,24 +1,122 @@
-# meow_app
+# MeowApp
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+MeowApp is a mobile application that shows gifs of cats and contains a button to see a random cat, which when pressed plays a "Meow".
 
-A few resources to get you started if this is your first Flutter project:
+## How to build
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Step 1:**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download or clone this repo by using the link below:
+
+```
+https://github.com/DilemaCode/meow_app.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+If you don't have Flutter installed, follow the instructions at this link:
+https://docs.flutter.dev/get-started/install
 
 
+**Step 3:**
 
 
-Architecture Pattern: Custom Based on Getx Pattern
+### Depending on the platform you want to compile for, follow the appropriate steps:
+
+<br/>
+
+## Android
+
+To compile this app on Android in debug mode, use the following command
+```
+flutter build apk --debug
+```
+
+To compile this app on Android in profile mode, use the following command
+```
+flutter build apk --profile
+```
+
+To compile this app on Android in release mode, use the following command
+```
+flutter build apk --release
+```
+For Android deployment follow this link:
+https://docs.flutter.dev/deployment/android
+
+<br/>
+
+## IOS
+
+To compile this app on IOS in debug mode, use the following command
+```
+flutter build ios --debug
+```
+
+To compile this app on IOS in profile mode, use the following command
+```
+flutter build ios --profile
+```
+
+To compile this app on IOS in release mode, use the following command
+```
+flutter build ios --release
+```
+For IOS deployment follow this link:
+https://docs.flutter.dev/deployment/ios
 
 
-Sizer is a util for 
+<br/>
+
+## App Pages:
+
+* Welcome
+* Home
+* Cat
+* Random
+* Settings
+
+## App Features:
+
+* Routing
+* Dark Theme
+* Light Theme
+* Shimmer Loading
+* SwipeUpToRefresh
+* Scroll to load more data
+
+## Best Practices:
+
+* Dependency Injection
+* Clean Architecture
+* Getx Pattern
+
+
+## App Dependencies:
+
+* get
+* dio
+* get_it
+* equatable
+* connectivity
+* google_fonts
+* audioplayers
+* flutter_dotenv
+* pull_to_refresh
+* cached_network_imageDio
+
+
+<br/>
+<br/>
+<br/>
+
+##### Developer by: DilemaCode

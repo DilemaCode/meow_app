@@ -31,6 +31,7 @@ class App extends StatelessWidget {
       getPages: AppPages.routes,
       debugShowCheckedModeBanner: false,
       theme: darkTheme,
+      themeMode: ThemeMode.dark,
     );
   }
 }

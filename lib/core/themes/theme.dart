@@ -8,6 +8,7 @@ final ThemeData darkTheme = ThemeData.dark().copyWith(
   colorScheme: ThemeData.dark().colorScheme.copyWith(
         primary: AppColors.primaryColor,
         background: AppColors.backgroundDark,
+        brightness: Brightness.dark
       ),
   primaryColor: AppColors.primaryColor,
   toggleableActiveColor: AppColors.primaryColor,
@@ -25,9 +26,10 @@ final ThemeData darkTheme = ThemeData.dark().copyWith(
 
 final ThemeData lightTheme = ThemeData.light().copyWith(
   textTheme: AppFonts.lightTheme,
-  colorScheme: ThemeData.dark().colorScheme.copyWith(
+  colorScheme: ThemeData.light().colorScheme.copyWith(
         primary: AppColors.primaryColor,
-        background: AppColors.backgroundDark,
+        background: AppColors.backgroundLight,
+        brightness: Brightness.light
       ),
   primaryColor: AppColors.primaryColor,
   toggleableActiveColor: AppColors.primaryColor,

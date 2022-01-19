@@ -1,5 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:meow_app/common/dependency_injection.dart';
 import 'package:meow_app/core/themes/colors.dart';
@@ -13,11 +14,13 @@ class AppController extends GetxController {
   
   goDark() {
     Get.changeTheme(darkTheme);
+    Get.changeThemeMode(ThemeMode.dark);
     isDarkMode.value = true;
   }
 
   goLight() {
     Get.changeTheme(lightTheme);
+    Get.changeThemeMode(ThemeMode.light);
     isDarkMode.value = false;
   }
 
